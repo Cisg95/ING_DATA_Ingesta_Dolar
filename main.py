@@ -9,9 +9,9 @@ from pandas_gbq import to_gbq
 SOURCE = 'https://si3.bcentral.cl/Siete/es/Siete/API?respuesta='
 
 # Variables del proyecto GCP
-TABLA_DESTINO = os.getenv("bq_table",'dolar_day')
-DATA_SET = os.getenv("bq_dataset",'operaciones_payment')
-PROYECTO = os.getenv("bq_project",'fif-pay-cross-development')
+TABLA_DESTINO = os.getenv("bq_table",'xxxxx')
+DATA_SET = os.getenv("bq_dataset",'xxxxxx')
+PROYECTO = os.getenv("bq_project",'xxxxxx')
 
 TABLA_DESTINO = f"{DATA_SET}.{TABLA_DESTINO}"
 
